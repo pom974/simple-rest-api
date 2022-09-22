@@ -1,0 +1,33 @@
+[
+	{
+		"id": "0",
+		"name": "pierre",
+		"email": "pierre@mycompany.co",
+		"city": "Montreal",
+		"hasACat": true
+	}, {
+		"id": "1",
+		"name": "Sarah",
+		"email": "sarah@mycompany.co",
+		"city": "San Francisco",
+		"hasACat": false
+	}, {
+		"id": "2",
+		"name": "Jacques",
+		"email": "jacques@mycompany.co",
+		"city": "Paris",
+		"hasACat": true
+	}, {
+		"id": "3",
+		"name": "Abby",
+		"email": "abby@mycompany.co",
+		"city": "London",
+		"hasACat": true
+	}, {
+		"id": "4",
+		"name": "Karen",
+		"email": "karen@mycompany.co",
+		"city": "Auckland",
+		"hasACat": false
+	}
+]
