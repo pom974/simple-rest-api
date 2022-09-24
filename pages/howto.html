@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>How to use the API</title>
+</head>
+<body>
+<h1>How to use the REST API</h1>
+<p> An user is defined by 5 fields:
+    <ul>
+        <li>id (number)</li>
+        <li>name (string)</li>
+        <li>email (string)</li>
+        <li>city (string)</li>
+        <li>hasACat (boolean)</li>
+    </ul>
+</p>
+<p> To use the api, you need to use the address <b>http://localhost:5000/v1</b> and </p>
+<p> <b>/users:</b> no parameter - lists all users </p>
+<p> <b>/addUser:</b> takes the 5 fields as parameters and add the user in the JSON file (no GET, only POST) </p>
+<p> <b>/deleteUser:</b> takes the user id as a parameter and deletes the user from the json file </p>
+</body>
+</html>
