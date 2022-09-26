@@ -14,15 +14,8 @@ function GetUser(id)
     return users.find( (user) => user._id === id )
 }
 
-function AddUser(id, name, city, email, hasACat)
+function AddUser(user)
 {
-    var user = {
-        _id: id, 
-        name: name,
-        city: city,
-        email:email,
-        hasACat:hasACat
-    };
     users.push(user);
 
     var newUsers = JSON.stringify(users);
